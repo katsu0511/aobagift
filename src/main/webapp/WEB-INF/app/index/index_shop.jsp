@@ -26,7 +26,7 @@
 					<select id="channel">
 						<option value="">全てのチャネル</option>
 						<%	for (String channel : channels) {	%>
-							<option value=<%= channel %>>
+							<option value="<%= channel %>">
 								<%= channel %>
 							</option>
 						<% } %>

@@ -26,7 +26,7 @@
 						<select id="channel">
 							<option value="">全てのチャネル</option>
 							<%	for (String channel : channels) {	%>
-								<option value=<%= channel %>>
+								<option value="<%= channel %>">
 									<%= channel %>
 								</option>
 							<% } %>
@@ -37,7 +37,7 @@
 						<select id="requester">
 							<option value="">全ての依頼者</option>
 							<%	for (String requester : requesters) {	%>
-								<option value=<%= requester %>>
+								<option value="<%= requester %>">
 									<%= requester %>
 								</option>
 							<% } %>
